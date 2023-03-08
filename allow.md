@@ -4,8 +4,8 @@ b에서 a의 원격저장소로 push를때렸다. 그랬더니 reject 오류가 
 
 그래서 a의 push 권한을 가져올 필요가있었다.  b로 가지고올 필요가있었다.
 
-b에서 git pull origin 브런치명 --allow-unrelated-histories 사용해서 a와 b의 히스토리를 하나로 합친다. 그리고 그과정이 a의 push 권하을 b로가지고 오는것과 같고 
+b에서 git pull origin 브런치명 --allow-unrelated-histories 사용해서 a와 b의 히스토리를 하나로 합친다. 그리고 그과정이 a의 push 권한을 b로가지고 오는것과 같고 
 
 그 과정에서 b의 저장소(원격저장소)가 없기때문에 git에서 자동으로 private하게 만들어준다. 
 
-그리고 b가 가지고온 권하을 이용해서 a의 원격저장소로 push를한다. (이단계에서는 이미 b의 원격저장소이다,)
+그리고 b가 가지고온 권한을 이용해서 a의 원격저장소로 push를한다. (이단계에서는 이미 b의 원격저장소이다,)
